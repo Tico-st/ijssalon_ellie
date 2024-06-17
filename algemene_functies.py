@@ -1,33 +1,22 @@
-def mijn_functie_1(argument):
-    tabel = {
-        2:4,
-        4:16,
-        10:100,
-        12:144
-    }
-    if argument in tabel:
-        return tabel[argument]
-    else:
-        return None
+def mijn_functie_1(a):
+    return a * a
 
-print(mijn_functie_1(2))
-print(mijn_functie_1(4))
-print(mijn_functie_1(10))
-print(mijn_functie_1(12))
+print(mijn_functie_1(2))  
+print(mijn_functie_1(4))   
+print(mijn_functie_1(10))  
+print(mijn_functie_1(12))  
 
-def mijn_functie_2(argument):
-    tabel = {
-        (12,3): [15, 9, 36, 4],
-        (12,2): [14, 10, 24, 6],
-        (10,5): [15, 5, 50, 2],
-        (100,20): [120, 80, 2000, 5]
-    }
-    if argument in tabel:
-        return tabel[argument]
-    else:
-        return None
- 
-print(mijn_functie_2((12,3)))   
-print(mijn_functie_2((12,2)))   
-print(mijn_functie_2((10,5)))   
-print(mijn_functie_2((100,20))) 
+def mijn_functie_2(a,b):
+    uitvoer_lijst = []
+    uitvoer_lijst.append(a+b)
+    uitvoer_lijst.append(a-b)
+    uitvoer_lijst.append(a*b)
+    uitvoer_lijst.append(a/b)
+    return uitvoer_lijst
+
+[(12, 3)] , [(12, 2)] , [(10, 5)] , [(100, 20)]
+
+print(mijn_functie_2(12, 3))
+print(mijn_functie_2(12, 2))
+print(mijn_functie_2(10, 5))
+print(mijn_functie_2(100, 20))
