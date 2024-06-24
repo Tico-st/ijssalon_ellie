@@ -1,6 +1,6 @@
 from helper import som
 from presentatie import presenteer
-
+import csv
 
 inkomsten = {
     "Aardbeien-ijs-totaal" : 1000,
