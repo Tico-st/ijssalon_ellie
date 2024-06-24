@@ -18,4 +18,4 @@ def onderstreep(tekst=""):
 
 
 def som(inkomsten):
-    return sum(inkomsten.values())
+    return sum(inkomsten.values()

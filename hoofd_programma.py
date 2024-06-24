@@ -7,4 +7,4 @@ uitvoer.append("Slagroom, spuitbus van 1 liter : 2 euro")
 print()
 
 for el in uitvoer:
-    print(el)
+    print(el
